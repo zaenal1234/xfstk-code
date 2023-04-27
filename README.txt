@@ -9,13 +9,14 @@ http://www.cmake.org/files/v2.8/cmake-2.8.12.2.tar.gz
 View readme.txt in cmake tar.gz file for cmake build and install 
 
 How To Build This Software:
-$ mdkir build (in the extracted xfstk downloader directory)
-$ cd build
-$ export DISTRIBUTION_NAME=ubuntu12.04
+$ mkdir xfstk-sources (in the extracted xfstk downloader directory)
+$ cd xfstk-sources
+$ export DISTRIBUTION_NAME=debian4.9.2
 $ export BUILD_VERSION=0.0.0
 $ cmake .. 
 (make sure that this was the cmake directory that was manually built and installed, i.e. /usr/local/bin/cmake ..)
 $ make
+$ make install
 
 Optional targets are available. I.E:
 $ make docs
